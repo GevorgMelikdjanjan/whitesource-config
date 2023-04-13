@@ -1,12 +1,14 @@
 {
   "scanSettings": {
     "configMode": "AUTO",
+    "enableLicenseViolations":"true",
+    "enableIaC": "true",
     "configExternalURL": "",
     "baseBranches": []
   },
   "scanSettingsSAST": {
-    "enableScan": false,
-    "scanPullRequests": false,
+    "enableScan": true,
+    "scanPullRequests": true,
     "incrementalScan": true,
     "baseBranches": [],
     "snippetSize": 10
